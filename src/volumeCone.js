@@ -5,5 +5,6 @@
  * @returns {number}
  */
 module.exports.volumeCone = function volumeCone(h, r) {
-  throw new Error('Not implemented');
+let res = (1/3) * Math.PI * Math.pow(r,2) * h;
+return res.toFixed(2);
 };

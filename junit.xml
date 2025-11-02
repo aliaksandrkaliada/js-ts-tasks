@@ -1,0 +1,365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Mocha Tests" time="0.010" tests="57" failures="57">
+  <testsuite name="Root Suite" timestamp="2025-10-31T20:00:14" tests="0" time="0.000" failures="0">
+  </testsuite>
+  <testsuite name="backToFront" timestamp="2025-10-31T20:00:14" tests="10" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.003" failures="10">
+    <testcase name="backToFront should return &quot;ohelloo&quot;" time="0.000" classname="should return &quot;ohelloo&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;abcabcabc&quot;" time="0.000" classname="should return &quot;abcabcabc&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;world&quot;" time="0.000" classname="should return &quot;world&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;llbillll&quot;" time="0.000" classname="should return &quot;llbillll&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;!one!!&quot;" time="0.000" classname="should return &quot;!one!!&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;smallString&quot;" time="0.000" classname="should return &quot;smallString&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;320933&quot;" time="0.000" classname="should return &quot;320933&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;   &quot;" time="0.000" classname="should return &quot;   &quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;&apos;&apos;&apos;&quot;" time="0.000" classname="should return &quot;&apos;&apos;&apos;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="backToFront should return &quot;&quot;" time="0.000" classname="should return &quot;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at backToFront (src/backToFront.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="compareSalary" timestamp="2025-10-31T20:00:14" tests="6" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="6">
+    <testcase name="compareSalary should return 400" time="0.000" classname="should return 400">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 0" time="0.000" classname="should return 0">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 2" time="0.000" classname="should return 2">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 5349" time="0.000" classname="should return 5349">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 609.008888" time="0.000" classname="should return 609.008888">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareSalary should return 53492003509" time="0.000" classname="should return 53492003509">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareSalary (src/compareSalary.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="compareTwoNumbers" timestamp="2025-10-31T20:00:14" tests="5" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="5">
+    <testcase name="compareTwoNumbers should return &quot;&gt;&quot;" time="0.000" classname="should return &quot;&gt;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src/compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src/compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src/compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;&lt;&quot;" time="0.000" classname="should return &quot;&lt;&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src/compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="compareTwoNumbers should return &quot;=&quot;" time="0.000" classname="should return &quot;=&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at compareTwoNumbers (src/compareTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="digitsSum" timestamp="2025-10-31T20:00:14" tests="9" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="9">
+    <testcase name="digitsSum should return 1" time="0.000" classname="should return 1">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 7" time="0.000" classname="should return 7">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 2" time="0.000" classname="should return 2">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 6" time="0.000" classname="should return 6">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 10" time="0.000" classname="should return 10">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 33" time="0.000" classname="should return 33">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 22" time="0.000" classname="should return 22">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="digitsSum should return 0" time="0.000" classname="should return 0">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at digitsSum (src/digitsSum.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="divider" timestamp="2025-10-31T20:00:14" tests="6" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.000" failures="6">
+    <testcase name="divider should return &quot;2 0&quot;" time="0.000" classname="should return &quot;2 0&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="divider should return &quot;2 2&quot;" time="0.000" classname="should return &quot;2 2&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="divider should return &quot;4 1&quot;" time="0.000" classname="should return &quot;4 1&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="divider should return &quot;8 0&quot;" time="0.000" classname="should return &quot;8 0&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="divider should return &quot;1 1&quot;" time="0.000" classname="should return &quot;1 1&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="divider should return &quot;2 1&quot;" time="0.000" classname="should return &quot;2 1&quot;">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at divider (src/divider.js:9:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="evalExpr" timestamp="2025-10-31T20:00:14" tests="6" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="6">
+    <testcase name="evalExpr should return 4" time="0.000" classname="should return 4">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return 340" time="0.000" classname="should return 340">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -20" time="0.000" classname="should return -20">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -2036" time="0.000" classname="should return -2036">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return 4252" time="0.000" classname="should return 4252">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="evalExpr should return -20372" time="0.000" classname="should return -20372">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at evalExpr (src/evalExpr.js:7:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumInRange" timestamp="2025-10-31T20:00:14" tests="5" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="5">
+    <testcase name="sumInRange should return 45" time="0.000" classname="should return 45">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src/sumInRange.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return 21" time="0.000" classname="should return 21">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src/sumInRange.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return -125250" time="0.000" classname="should return -125250">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src/sumInRange.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return -1" time="0.000" classname="should return -1">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src/sumInRange.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumInRange should return 55" time="0.000" classname="should return 55">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumInRange (src/sumInRange.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="sumTwoNumbers" timestamp="2025-10-31T20:00:14" tests="6" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.000" failures="6">
+    <testcase name="sumTwoNumbers should return 16" time="0.000" classname="should return 16">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 458" time="0.000" classname="should return 458">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return -15" time="0.000" classname="should return -15">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 0" time="0.000" classname="should return 0">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return -0.9" time="0.000" classname="should return -0.9">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="sumTwoNumbers should return 215042314" time="0.000" classname="should return 215042314">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at sumTwoNumbers (src/sumTwoNumbers.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+  <testsuite name="volumeCone" timestamp="2025-10-31T20:00:14" tests="4" file="/Users/kaliada/Documents/EHU/js-ts-tasks/test/index.js" time="0.001" failures="4">
+    <testcase name="volumeCone should return 20.94" time="0.000" classname="should return 20.94">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src/volumeCone.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 314.16" time="0.000" classname="should return 314.16">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src/volumeCone.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 7.33" time="0.000" classname="should return 7.33">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src/volumeCone.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+    <testcase name="volumeCone should return 28807927.11" time="0.000" classname="should return 28807927.11">
+      <failure message="Not implemented" type="Error"><![CDATA[Error: Not implemented
+    at volumeCone (src/volumeCone.js:8:9)
+    at Context.<anonymous> (test/index.js:24:27)
+    at process.processImmediate (node:internal/timers:485:21)]]></failure>
+    </testcase>
+  </testsuite>
+</testsuites>
