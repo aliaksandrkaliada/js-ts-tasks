@@ -5,5 +5,13 @@
  * @returns {Object}
  */
 module.exports.removeItems = function removeItems(arr, value) {
-  throw new Error('Not implemented'); // remove me and write a solution
+if (!Array.isArray(arr)) {
+    return [];
+  }
+  return arr.filter(item => {
+    if (typeof item === 'object' && item !== null && typeof value === 'object' && value !== null) {
+      return JSON.stringify(item) !== JSON.stringify(value);
+    }
+    return item !== value;  
+  });
 };
