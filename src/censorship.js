@@ -14,5 +14,12 @@
  * @returns {function}
  */
 module.exports.censorship = function censorship(forbidden) {
-  throw new Error('Not implemented'); // remove me and write a solution
+  return function(str) {
+    forbidden.sort((a, b) => b.length - a.length);
+    forbidden.forEach(word => {
+      const regex = new RegExp(word.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&'), 'gi');
+      str = str.replace(regex, '*'.repeat(word.length));
+    });
+    return str;
+  };
 };
