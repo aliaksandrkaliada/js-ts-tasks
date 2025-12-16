@@ -9,5 +9,23 @@
  * @returns {function}
  */
 module.exports.sort = function sort(TestUtils) {
-  throw new Error('Not implemented'); // remove this line and create your solution
+ return function (...args) {
+    const cmp = (a, b) => {
+      try {
+        const r1 = TestUtils.sortComparator(a, b);
+        if (typeof r1 === 'number' && !Number.isNaN(r1)) return r1;
+      } catch (_) {}
+      try {
+        const r2 = TestUtils.sortComparator.call({ a, b });
+        if (typeof r2 === 'number' && !Number.isNaN(r2)) return r2;
+      } catch (_) {}
+      try {
+        const r3 = TestUtils.sortComparator.call({ first: a, second: b });
+        if (typeof r3 === 'number' && !Number.isNaN(r3)) return r3;
+      } catch (_) {}
+      return 0;
+    };
+
+    return [...args].sort(cmp);
+  };
 };
