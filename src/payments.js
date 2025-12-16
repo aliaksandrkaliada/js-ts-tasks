@@ -23,47 +23,22 @@
  * @returns {function}
  */
 module.exports.payments = function payments(TestUtils) {
- function sumObject(obj) {
-    const target = (obj && typeof obj === 'object') ? obj : {};
-     const tryCall = (fn) => {
-      try {
-        const res = fn();
-        if (typeof res === 'number' && !Number.isNaN(res)) return res;
-      } catch (_) {}
-      return undefined;
-     };
-
-    let out = tryCall(() => TestUtils.sumAllObjectProperties.call(target));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties(target));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.call({ obj: target }));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.call({ object: target }));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.call({ data: target }));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.call({ values: target }));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.apply(target));
-    if (out !== undefined) return out;
-
-    out = tryCall(() => TestUtils.sumAllObjectProperties.apply(null, [target]));
-    if (out !== undefined) return out;
-
-    return 0;
-  }
-  
   return function (income, debts) {
-    const incomeSum = sumObject(income);
-    const debtsSum  = sumObject(debts);
+    const safeIncome = income && typeof income === 'object' ? income : {};
+    const safeDebts = debts && typeof debts === 'object' ? debts : {};
 
-    return incomeSum - debtsSum;
+    function sum(obj) {
+      let r;
+      try { r = TestUtils.sumAllObjectProperties.call(obj); } catch (_) {}
+      if (typeof r !== 'number' || Number.isNaN(r)) {
+        try { r = TestUtils.sumAllObjectProperties(obj); } catch (_) {}
+      }
+      if (typeof r !== 'number' || Number.isNaN(r)) {
+        try { r = TestUtils.sumAllObjectProperties.call({ obj }); } catch (_) {}
+      }
+      return (typeof r === 'number' && !Number.isNaN(r)) ? r : 0;
+    }
+
+    return sum(safeIncome) - sum(safeDebts);
   };
 };
