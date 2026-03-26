@@ -5,6 +5,18 @@
  * @delay {number}
  * @return {function}
  */
+
 module.exports.debounce = function debounce(fn, delay) {
-  throw new Error('Not implemented'); // remove me and write your code
+  let locked = false;
+
+  return function (...args) {
+    if (!locked) {
+      fn.apply(this, args);
+      locked = true;
+
+      setTimeout(() => {
+        locked = false;
+      }, delay);
+    }
+  };
 };
